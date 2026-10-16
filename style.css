@@ -1,0 +1,26 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+h1:hover,h2:hover,
+h3:hover {
+  color: #176b67;
+}
+
+h2::after {
+  content: "★ ";       
+  color: #176b67;     
+}
+
+
+form {
+  background-color: #eeeeee;
+}
+
+/* display : flex 
+flex-direction : column
+if flex-direction : row-revere --> theyre stored horizontally but in reverse order */
+/* difference between space arund and space between is that space around has equal space around each item while space between has equal space between each item but no space at the start and end of the container */
+/* comatiaer must always have a property called dispay assigned to flex  */
+/* media queries are used to make the website responsive to different screen sizes. For example, you can use media queries to change the layout of a webpage when viewed on a mobile device versus a desktop computer. */

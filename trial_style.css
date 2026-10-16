@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 600px;
+    height:600px;
+    align-items: center;/*needs display flex to work*/
+    justify-content: space-around;/*needs display flex to work*/
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    background-color:  yellowgreen;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* // if i want to chnage the elements alignmemnt i set the paremt to flex and then use justify-content to change the alignment of the child elements.
+and then theyre aligned nexti to each other. If i want to change the alignment of the child elements i can use align-items to change the alignment of the child elements. */
+/* chnage in flex diplay is done for the parent container. not the elemnts themselves. The child elements are aligned based on the properties set on the parent container. For example, if you want to center the child elements horizontally, you can set justify-content: center; on the parent container. If you want to center them vertically, you can set align-items: center; on the parent container. */
+/* order are alginself are the only ones set for the element itself not the paremt comatiner  */
+
+
+/* post, jwt 
+where sare pass saced, cookkiesz */
